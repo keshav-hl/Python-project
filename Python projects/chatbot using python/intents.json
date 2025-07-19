@@ -1,0 +1,67 @@
+{"intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "Yo", "Hi there"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "Howdy!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "See ya"],
+      "responses": ["Goodbye!", "See you soon!", "Bye! Take care.", "Later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Much appreciated"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help.", "Anytime!", "Always here for you."]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["Who are you?", "What is your name?", "Tell me about yourself", "What's your name?"],
+      "responses": ["I'm your chatbot assistant.", "I'm a bot created to help you.", "I'm your friendly chatbot."]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["What can you do?", "How can you help me?", "What are your features?", "What services do you offer?"],
+      "responses": ["I can chat with you, answer questions, tell jokes, give info, and more!", "I'm here to help you with information, fun, and support."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it sunny?", "Tell me the weather", "Do I need an umbrella today?"],
+      "responses": ["I can't give real-time weather updates yet, but I recommend checking a weather app!", "Try searching 'weather in [your city]' for live updates."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time", "Time now"],
+      "responses": ["You can check the time on your device clock 😊", "I'm not synced with time right now, but your phone is!"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What is the date?", "Today's date", "Which day is today?", "Tell me today's date"],
+      "responses": ["Check your calendar or device for the accurate date!", "Your phone has the current date — it's smarter than me 😄"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "I want to laugh"],
+      "responses": ["Why did the computer show up at work late? It had a hard drive!", "I'm reading a book on anti-gravity. It's impossible to put down!", "What do you call a belt made of watches? A waist of time!"]
+    },
+    {
+      "tag": "feeling",
+      "patterns": ["I'm sad", "I'm feeling down", "I'm depressed", "Not feeling good"],
+      "responses": ["I'm here for you ❤️. You're not alone.", "It’s okay to feel down. Want to talk about it?", "Sending you positive vibes! 🌟"]
+    },
+    {
+      "tag": "bot_feelings",
+      "patterns": ["How are you?", "How's it going?", "What's up with you?"],
+      "responses": ["I'm doing great, thanks for asking!", "Always happy to chat with you!", "Feeling bot-tastic! 🤖"]
+    },
+    {
+      "tag": "random_fact",
+      "patterns": ["Tell me something interesting", "Give me a random fact", "Did you know something cool?"],
+      "responses": ["Did you know honey never spoils?", "Octopuses have three hearts!", "Bananas are berries, but strawberries aren't!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "Help me please", "What should I do?"],
+      "responses": ["Sure! Tell me what you need help with.", "Of course! I'm here for you.", "Let me know what you're stuck on."]
+    }
+  ]}
